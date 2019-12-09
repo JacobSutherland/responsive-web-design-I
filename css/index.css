@@ -506,7 +506,7 @@ margin-bottom: -7%
 
 /* Introduce max-width media queries into your project at 800px and 500px   */
 
-@media (max-width: 800px){  
+@media (max-width: 500px){  
 
 
     .wrapper{
@@ -589,7 +589,7 @@ width: 30%;
 }
 
 .first-content-group {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     flex-direction: column;
     align-items: center;
     width: 100%
@@ -620,7 +620,7 @@ width: 30%;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
+    margin-bottom: 15%;
     
 }
 
@@ -650,6 +650,7 @@ width: 70%;
 
 footer h2 {
     margin-left: 11%;
+    
 }
 
 address {
@@ -666,5 +667,7 @@ address {
 
 
 
+@media (max-width: ) {
 
+}
 
