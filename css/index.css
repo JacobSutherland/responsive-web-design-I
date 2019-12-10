@@ -503,6 +503,131 @@ margin-bottom: -7%
 }
 /* === Media Queries === */
 
+@media (max-width: 800px) {
+
+
+    header {
+       margin: 0 auto;
+       
+    
+        
+    } 
+    
+    nav {
+        flex-direction: row;
+        margin-right: 10%;
+        flex-wrap: wrap;
+        font-weight: bold;
+        color: grey;
+        
+    }
+    
+    hr {
+        width: 90%;
+        border:  1px solid black
+    }
+    
+    address {
+        line-height: 2;
+    }
+    
+    .wrapper {
+        margin: 1%;
+       
+    }
+    
+    
+     .code-snippet-div {
+         display: none;
+     }
+    
+    
+    .logo-container {
+    
+        width: 100%;
+        order: -1;
+      
+        justify-content: center;
+    
+        
+    }
+    
+    .logo {
+        margin-left: 5%;
+    }
+    
+    
+    
+    
+    .large-slogan-div {
+        margin-top: -5%;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .large-slogan {
+        align-items: center;
+        /* border: 2px solid red; */
+        margin-right: 25%;
+        margin-bottom: 10%;
+        
+    }
+    
+    .large-slogan h1 {
+        font-size: 4rem;
+    }
+    
+    .get-started {
+        width: 40%;
+        font-size: 1rem;
+        height:  1.75rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+    
+    .first-content-group {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-bottom: 5%;
+        
+    
+    }
+    
+    
+    .services {
+        
+        width: 100%;
+        height:100%
+    }
+    
+    .product {
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    .vision {
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .last-content-group{
+        margin-left: 5%;
+        margin-bottom: 5%;
+        
+        width: 90%;
+        
+    }
+    
+    
+    }
+    
+
 
 /* Introduce max-width media queries into your project at 800px and 500px   */
 
@@ -667,7 +792,4 @@ address {
 
 
 
-@media (max-width: ) {
-
-}
 
